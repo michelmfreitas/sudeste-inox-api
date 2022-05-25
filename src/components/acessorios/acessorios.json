@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_acessorios_acessorios",
+  "info": {
+    "displayName": "Acessórios",
+    "icon": "tasks"
+  },
+  "options": {},
+  "attributes": {
+    "acessorioName": {
+      "type": "string"
+    },
+    "imgAcessorio": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_product_item_items",
+  "info": {
+    "displayName": "Item",
+    "icon": "grip-vertical",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "acessorios": {
+      "displayName": "Acessórios",
+      "type": "component",
+      "repeatable": true,
+      "component": "acessorios.acessorios"
+    },
+    "textComponent": {
+      "displayName": "textComponent",
+      "type": "component",
+      "repeatable": true,
+      "component": "text-component.text-component"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_text_component_text_components",
+  "info": {
+    "displayName": "textComponent",
+    "icon": "font"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Text",
+        "Image",
+        "Text + Image",
+        "Image + Text"
+      ]
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
